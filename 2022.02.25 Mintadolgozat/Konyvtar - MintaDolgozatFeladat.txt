@@ -1,0 +1,17 @@
+Könyvtár - minta dolgozat
+
+Van egy könyvtárunk, amiben könyveket tárolunk. A könyveknek van címe, 1 szerzője, kiadási éve, ára, egyedi azonosítója.
+
+A könyvtárba fel tudunk venni új könyvet:
+  • kézzel megadva 1 könyv példányt (--> m.j.: konstruktor)
+  • fájlból beolvasunk több sornyi könyv példányt (--> m.j.: konstruktor)
+
+Meg tudjuk nézni, hogy milyen könyvek vannak a könyvtárban, alapértelmezetten cím szerint rendezve.
+
+Minden további könyv jellemzőre készíthetünk rendezett kimenetet, amit akár fájlba is tudunk írni. (A projekthez, nem kell könyvtárat (m.j.: pontosabban mappát, ez most nem a Könyvtárra, mint osztályra vonatkozik) választani). 
+
+A könyvtár aktuális állapotát szerializáljuk, mert később hálózaton is át kell küldeni a „készletet”, az egyedi azonosítókat a könyvtár adja, azt nem szerializáljuk.
+
+A könyvek a rendezhetőségükön kívül másolhatóak is, mert gyakran kerülnek be sorozatok, ahol ugyanaz az író, a cím csak inkrementált ( m.j.: én ezt így értelmezem: pl. Szepes Mária: A Vörös Oroszlán 1, zepes Mária: A Vörös Oroszlán 2, stb.). Néha a kiadási év is megegyezik, de az áruk szinte mindig.
+
+Mutassuk is be a főbb funkciókat!

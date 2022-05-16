@@ -1,0 +1,6 @@
+sárga;7;parancsnok;gránát
+kék;8;hadnagy;akna
+sárga;9;ezredes;rakéta
+piros;6;tiszt;golyó
+kék;7;főtiszt;kézigránát
+piros;7;tizedes;akna

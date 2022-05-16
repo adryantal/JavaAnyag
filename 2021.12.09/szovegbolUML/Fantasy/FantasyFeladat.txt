@@ -1,0 +1,3 @@
+Feladatleírás:
+
+Egy játékos karakter tárgyakat tud felvenni. Minden felvett tárgy csökkenti a mozgási sebességét. Amit felvett, az a hátizsákjába kerül. Tudja használni, ilyenkor a kezébe kerül az a tárgy, ami a hátizsák tetején van. Ez a legutoljára felvett tárgy. A hátizsákját át tudja rendezni, megadhatja, hogy mi kerüljön legfelülre. A kezében lévő tárgyat el is tudja dobni, vagy használhatja. Ha van valami a kezében, az még 30%-al csökkenti a mozgási sebességét.

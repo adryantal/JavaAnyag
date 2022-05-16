@@ -1,0 +1,13 @@
+A leadás menete:
+
+Az első bekezdés szövegéből rajzolsz egy ábrát és feltöltöd SajátNev.png formátumban.
+
+Aztán NetBeans-ben elkészíted az üres projektet 2 package létrehozásával, uml és jatek néven.
+
+Minden leadásban a teljes projektet töltöd fel, sorszámot rakj a zip nevének végére.
+
+Az első leadást az uml package-ben készítsd el, ennek tartalma az 1., 2. feladat, tehát elkészíted az ábra alapján a projekt csonkját, majd belerakod a 2 feladat alapján a minimális algoritmust.
+
+Fontos, hogy  projekt hibátlanul leforduljon!
+
+Aztán átmásolod a fájlokat a jatek package-be és ott folytatod a 3. feladatot, amit egy új zipben kell feltölteni!

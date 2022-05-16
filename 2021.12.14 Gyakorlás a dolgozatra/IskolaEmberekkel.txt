@@ -1,0 +1,3 @@
+Feladatleírás:
+
+Az iskolában emberek vannak. Az iskola, mint épület, biztonságos, de ez változhat. Az iskola számontartja a benne levő emberektől származó információkat.  Az emberek vagy tanárok vagy diákok. A tanárnak van egy tanított tárgya, amit a hozzárendelése után nem lehet megváltoztatni. A diákoknak átlaguk van, ami viszont változhat, amikor a tanár tanítja a diákot.

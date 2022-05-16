@@ -1,0 +1,12 @@
+Összes versei 1;Petőfi Sándor;1998;2500;
+Összes versei 2;Petőfi Sándor;1998;2500;
+A vörös oroszlán 1;Szepes Mária;1996;3500;
+A vörös oroszlán 2;Szepes Mária;1999;3700;
+Összes versei 1;Petőfi Sándor;1998;2500;
+Összes versei 2;Petőfi Sándor;1998;2500;
+A kis herceg;Antoine de Saint-Exupéry;1978;3200;
+Vörös és fekete;Stendhal;1988;3100;
+Bánk Bán;Katona József;1982;3350;
+Bogáncs;Fekete István;1968;2500;
+Tüskevár;Fekete István;1978;2300;
+Pál utcai fiúk;Molnár Ferenc;1978;2300;

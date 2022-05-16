@@ -1,0 +1,135 @@
+
+JAVA OOP
+
+UML rajzon:
+nyíl : ismeretség jelölés
+1 program ismer 1 Jatekot
+1 Jatek ismer 3 Játékost
+
+- ismertség: nyíl (nem "telített" végű; a "telített" végű öröklődést jelöl!!!)
+- tobb-tobb kapcsolat: nyíl nélküli összekötés
+
+- legfelül a téglalapban található címke: package neve, amely a benne lévő osztályokat foglalja egységbe
+
+UML "téglalap" felépítése (felülről lefele):
+
+osztálynév
+adattagok
+metódusok
+
+aláhúzás: public static void main --> statikusságot jelöl
+
+
+-----
+
+
+példányosításkor első ponton csak referencia jön létre
+hivatkozás memóriacímre
+az oszt. adattagjai alapján kerülnek kialakításra
+
+az int. nem referencia! (ez általánosságban vonatkozik a primitív adattípusokra)
+
+inicializáláskor egy "default" 0 értéket kap a változó
+
+Törtes példa:
+
+osztály tipusa (pl. Tort) : referenciatípus, memoriacimet tarol
+a referenciatipust inicializalni kell a konstruktorral
+t1: referencia arra a memoriacimre, ahol a szamlalo es nevezo van
+
+int, char: ertektipus
+
+
+konstruktor: 
+inicializalnia kell az adattagokat
+nem szabad kóddupikácinak előfordulnia
+
+ki kell nevezni egy fő konstruktort, amelyet a többi k. is meghív, így kialakul egy ún. konstruktor hívási lánc
+
+----------------
+
+2021.12.02
+
+HengerProgram
+
+-cast-olásnál arra kell figyelni, h. az ős nem viselkedhet utódként, az őst nem lehet utóddá castolni
+-meg kell nézni az instanceOf utasítás segítségével, hogy tényleg olyan típus-e-
+-ha a vaóban lyukashengerre hivatkozik a memóriában, akkor castolható
+
+
+package hengerprogram;
+
+
+public class LyukasHenger extends TomorHenger {
+    private double falvastagsag;
+
+    public LyukasHenger(double r, double m, double falvastagsag) {
+        //super(r, m);
+        this(r,m,1,falvastagsag);
+    }
+
+    public LyukasHenger(double r, double m, double fajsuly, double falvastagsag) {
+        super(r, m, fajsuly);
+        this.falvastagsag=falvastagsag;
+    }
+
+    @Override
+    public String toString() {
+        return "LyukasHenger{" + "falvastagsag=" + falvastagsag + '}';
+    }
+
+    @Override
+    public double terfogat() {
+        return super.terfogat(); 
+    }
+    
+
+
+
+
+package hengerprogram;
+
+
+public class TomorHenger extends Henger{
+    private double fajsuly;
+
+    public TomorHenger(double r, double m) { //benne van az ős hívása
+       // super(r, m); //nem állít be minde adattagot, nem jó
+       this(r,m,1); 
+    }
+
+    public TomorHenger(double r, double m, double fajsuly) {
+        super(r, m);  //hívja a 3 paraméterest
+        this.fajsuly = fajsuly;
+    }
+
+    public double getFajsuly() {
+        return fajsuly;
+    }
+
+    @Override
+    public String toString() {
+        return "TomorHenger{" + "fajsuly=" + fajsuly + '}';
+    }
+    
+    public double suly(){
+        return fajsuly*terfogat();
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

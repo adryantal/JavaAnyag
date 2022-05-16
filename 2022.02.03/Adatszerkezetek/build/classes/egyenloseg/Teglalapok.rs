@@ -1,0 +1,2 @@
+egyenloseg.Teglalap
+egyenloseg.Teglalapok

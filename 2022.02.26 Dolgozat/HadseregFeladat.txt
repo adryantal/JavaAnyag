@@ -1,0 +1,15 @@
+Hadsereg – éles dolgozat
+Egy játékban hadsereget lehet irányítani. A feladat a hadsereg és az azt alkotó katonák funkcionalitásának elkészítése, az alábbi leírás szerint:
+
+A hadsereg katonákból áll. Minden katonának van színe (melyik csapathoz tartozik), életereje, fokozata, lövedéke, továbbá egy egyedi azonosítója.
+
+
+A hadseregbe kerülhetnek új katonák:
+•	kézzel megadva egy 1 új példányt
+•	fájlból beolvasunk több példányt, a fájl minden sora 1-1 katonát ír le
+A hadseregtől lel lehet kérni, hogy jelenleg milyen katonák vannak a csapatban, a színük alapján rendezve. Minden további jellemzőre (kivéve id) kérhetünk rendezett kimenetet, amit akár fájlba is írhatunk majd. A játék a neten tárolja az aktuális állapotot, ezért kell biztosítani egy bináris kimenetet. Az id-t a hadsereg adja, azt nem szerializáljuk.
+
+Bizonyos esetben lehet többszörözni a katonákat, tehát készítsük fel az osztályt a másolhatóságra. Gondoskodjunk arról is, hogy a másolás során új id-t kapjon minden katona!
+Extrák (5-ért): 
+•	a hadsereg tudja visszaállítani a korábbi állapotát egy kimentett fájl alapján
+•	legyen iterálható, adja vissza a katonáit

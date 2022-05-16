@@ -1,0 +1,4 @@
+Feladatleírás:
+
+Van néhány (min. 2) kocka az asztalon. A kockákkal tudunk dobni. Ha az asztalba belerúgunk, akkor a kockák leesnek (a padlóra, de ez nem fontos).
+Extra: a kockák az asztalon egy pohárban vannak. 

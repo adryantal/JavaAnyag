@@ -1,0 +1,13 @@
+sárga;9;ezredes;bomba;
+sárga;9;ezredes;rakéta;
+kék;6;főtiszt;akna;
+piros;7;főtiszt;dinamit;
+kék;7;főtiszt;kézigránát;
+piros;8;hadnagy;gránát;
+kék;8;hadnagy;akna;
+piros;8;őrmester;gránát;
+sárga;7;parancsnok;gránát;
+sárga;5;tiszt;golyó;
+piros;6;tiszt;golyó;
+kék;7;tizedes;kézigránát;
+piros;7;tizedes;akna;

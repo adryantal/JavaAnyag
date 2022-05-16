@@ -1,0 +1,16 @@
+1. Fájlból olvasd be a tartalmat, majd jelenítsd meg ábécésorrendben a dalokat (dal / előadó):
+Rock a nevem / Tankcsapda
+
+2. Ha eddig nem tetted, akkor legyen Dal osztályunk, ezt tároljuk egy listában, a toString csak a dal címét adja vissza
+
+3. Továbbra is legyen cím szerint rendezve
+
+4. Tegyük előadó alapján is rendezhetővé
+
+5. Ne kelljen ismerni a külső rendező osztályt
+
+6. Egy új forrást (dalok2) rakjuk a res package-be
+
+7. Bővítve a fájl tartalmát (dalok2), szűrjük ki az ismétlődéseket!
+
+8. Tartsuk meg a rendezést (dalcímek alapján)
